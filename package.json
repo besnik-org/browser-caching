@@ -1,5 +1,5 @@
 {
-  "name": "client-side-caching",
+  "name": "browser-caching",
   "version": "1.0.0",
   "devDependencies": {
   },
@@ -10,16 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/besnik-org/smart-localstorage.git"
+    "url": "git+https://github.com/besnik-org/browser-caching.git"
   },
   "keywords": [
     "LocalStorage",
-    "LocalStoregeWithExpire"
+    "LocalStoregeWithExpire",
+    "besnik"
   ],
   "author": "Al Emran",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/besnik-org/smart-localstorage/issues"
+    "url": "https://github.com/besnik-org/browser-caching/issues"
   },
-  "homepage": "https://github.com/besnik-org/smart-localstorage#readme"
+  "homepage": "https://github.com/besnik-org/browser-caching#readme"
 }
