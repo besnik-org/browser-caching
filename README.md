@@ -15,4 +15,14 @@ setLocalStorage('flowgiri', 'flowgiri.com', 5)
 ```
 
 2. ```value```
+  Any type of data you need to store. 
+  
+ Note: `No need to make stringify of array or object.` 
 
+3. ```expireInMinute``` (optional). You can pass minutes for caching data till the minutes.
+If you do not pass expire, data will store like default ```localStorage```.
+
+
+### getLocalStorage():
+This function will get your data as like as you store if expire is not over. 
+If expire over then return null.
