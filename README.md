@@ -9,7 +9,7 @@ You just use:
 This function has three parameters:
 1. ```key``` for storing data with the key
 ```javascript
-import { setLocalStorage, getLocalStorage } from "index.js";
+import { setLocalStorage, getLocalStorage } from "browser-caching";
 
 setLocalStorage('flowgiri', 'flowgiri.com', 5)
 ```
