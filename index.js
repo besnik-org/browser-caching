@@ -1,26 +1,26 @@
-const storageKey = 'smart-storage'
+const storageKey = 'browser-cache'
 
 /** add minutes to current date **/
 const addMinutes = (minutes) => {
     return new Date(new Date().getTime() + (minutes * 60000));
 }
 
-export const setLocalStorage = (name, value, expireInMinute = null) => {
+export const setBrowserCache = (name, value, expireInMinute = null) => {
 
     localStorage.setItem(storageKey + name, JSON.stringify({
         value: value,
-        expire: timeInMinute ? addMinutes(expireInMinute) : null
+        expire: expireInMinute ? addMinutes(expireInMinute) : null
     }))
 
     return true
 }
 
-export const forgetLocalStorage = (name) => {
+export const forgetBrowserCache = (name) => {
     localStorage.removeItem(storageKey + name);
     return true;
 }
 
-export const getLocalStorage = (name) => {
+export const getBrowserCache = (name) => {
 
     let data = localStorage.getItem(storageKey + name);
     if (!data) {
