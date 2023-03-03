@@ -1,5 +1,5 @@
 {
-  "name": "localstorage-with-expire",
+  "name": "client-side-caching",
   "version": "1.0.0",
   "devDependencies": {
   },
