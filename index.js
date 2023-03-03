@@ -5,11 +5,11 @@ const addMinutes = (minutes) => {
     return new Date(new Date().getTime() + (minutes * 60000));
 }
 
-export const setLocalStorage = (name, value, timeInMinute = null) => {
+export const setLocalStorage = (name, value, expireInMinute = null) => {
 
     localStorage.setItem(storageKey + name, JSON.stringify({
         value: value,
-        expire: timeInMinute ? addMinutes(timeInMinute) : null
+        expire: timeInMinute ? addMinutes(expireInMinute) : null
     }))
 
     return true
