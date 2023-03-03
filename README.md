@@ -1,4 +1,4 @@
-## Smart Localstorage Manager 
+## Client-Side Caching with Localstorage  
 
 If you work with local storage for caching data to client side, you feel to set expire date for data. 
 This small library will help you to solve your problem. 
