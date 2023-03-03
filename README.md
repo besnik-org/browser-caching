@@ -1,11 +1,11 @@
-## Client-Side Caching with Localstorage  
+## BrowserCaching with Localstorage  
 
 If you work with local storage for caching data to client side, you feel to set expire date for data. 
 This small library will help you to solve your problem. 
 
 You just use:
 
-### setLocalStorage():
+### setBrowserCache():
 This function has three parameters:
 1. ```key``` for storing data with the key
 ```javascript
@@ -23,6 +23,6 @@ setLocalStorage('flowgiri', 'flowgiri.com', 5)
 If you do not pass expire, data will store like default ```localStorage```.
 
 
-### getLocalStorage():
+### getBrowserCache():
 This function will get your data as like as you store if expire is not over. 
 If expire over then return null.
