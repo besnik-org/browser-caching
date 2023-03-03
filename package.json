@@ -1,0 +1,25 @@
+{
+  "name": "smart-localstorage",
+  "version": "1.0.0",
+  "devDependencies": {
+  },
+  "description": "Set & get data to localStorage with expire. If you work with local storage for caching data to client side, you feel to set expire date for data. This small library will help you to solve the problem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/besnik-org/smart-localstorage.git"
+  },
+  "keywords": [
+    "LocalStorage",
+    "LocalStoregeWithExpire"
+  ],
+  "author": "Al Emran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/besnik-org/smart-localstorage/issues"
+  },
+  "homepage": "https://github.com/besnik-org/smart-localstorage#readme"
+}
