@@ -1,5 +1,5 @@
 {
-  "name": "smart-localstorage",
+  "name": "localstorage-with-expire",
   "version": "1.0.0",
   "devDependencies": {
   },
