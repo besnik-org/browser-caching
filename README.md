@@ -3,10 +3,17 @@
 If you work with local storage for caching data to client side, you feel to set expire date for data. 
 This small library will help you to solve your problem. 
 
+### Install
+
+```shell
+npm i browser-caching
+```
+
 You just use:
 
 ### setBrowserCache():
 This function has three parameters:
+
 1. ```key``` for storing data with the key
 ```javascript
 import { setLocalStorage, getLocalStorage } from "browser-caching";
