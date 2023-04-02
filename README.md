@@ -9,17 +9,18 @@ This small library will help you to solve your problem.
 npm i browser-caching
 ```
 
-You just use:
-
-### setBrowserCache():
-This function has three parameters:
-
-1. ```key``` for storing data with the key
+#### Example:
 ```javascript
 import { setLocalStorage, getLocalStorage } from "browser-caching";
 
 setLocalStorage('flowgiri', 'flowgiri.com', 5)
 ```
+
+
+### setBrowserCache():
+This function has three parameters:
+
+1. ```key``` for storing data with the key
 
 2. ```value```
   Any type of data you need to store. 
